@@ -11,7 +11,6 @@ class AppHeader extends HTMLElement {
             <input type="checkbox" id="cek">
             <nav>
                 <a href="#" class="active">Home</a>
-                <a href="#">About</a>
                 <a href="https://github.com/inifawaz/latihan">Source Code</a>
             </nav>
         </header>

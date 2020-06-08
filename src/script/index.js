@@ -85,5 +85,4 @@ elements.btnStop.addEventListener('click', () => {
 
 elements.btnExit.addEventListener('click', () => {
     elements.stopSection.style.bottom = '-100%'
-    elements.logo.click();
 })
