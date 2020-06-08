@@ -1,0 +1,61 @@
+@media (min-width: 600px) {
+
+    header {
+        width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header label {
+        display: none;
+    }
+
+    header nav {
+        height: auto;
+        display: inline-block;
+    }
+
+    .active {
+        border-bottom: 3px solid #18AC89;
+    }
+
+    section.hero {
+        width: 1100px;
+        margin: 0 auto;
+    }
+
+    .hero__desc {
+        width: 50%;
+    }
+
+    .hero__cta {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    main {
+        padding: 20px 15px 50px;
+    }
+
+
+    .foto-box {
+        max-width: 1100px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .answers-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .answers-box a {
+        width: 300px;
+    }
+
+    .answers-box a:first-child {
+        margin-right: 20px;
+        cursor: pointer;
+    }
+}
